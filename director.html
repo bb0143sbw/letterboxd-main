@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Christopher Nolan</title>
-    <link rel="stylesheet" href="css/style-page2.css" />
+    <link rel="stylesheet" href="css/style-director.css" />
     <link
       rel="shortcut icon"
       href="https://a.ltrbxd.com/logos/letterboxd-decal-dots-pos-rgb.svg"
@@ -20,7 +20,7 @@
     <div class="container">
       <!-- header | Start -->
       <header class="header">
-        <div class="logo">
+        <div class="header__logo">
           <img
             src="https://a.ltrbxd.com/logos/letterboxd-dots-pos-tight.png"
             alt="cinema logo"
@@ -28,7 +28,7 @@
           <h1>Letterboxd</h1>
         </div>
         <nav>
-          <ul class="navbar">
+          <ul class="header__navbar">
             <li><a href="#">SIGN IN</a></li>
             <li><a href="#">CREATE ACCOUNT</a></li>
             <li><a href="#">FILMS</a></li>
@@ -36,8 +36,16 @@
             <li><a href="#">MEMBERS</a></li>
             <li><a href="#">JOURNAL</a></li>
             <li>
-              <input class="searchbar" type="text" inputmode="search" />
-              <input class="search-icon" type="submit" value="" />
+              <input
+                class="header__navbar--searchbar"
+                type="text"
+                inputmode="search"
+              />
+              <input
+                class="header__navbar--search-icon"
+                type="submit"
+                value=""
+              />
             </li>
           </ul>
         </nav>
@@ -45,17 +53,17 @@
       <!-- header | End -->
 
       <!-- intro | Start -->
-      <div class="intro">
-        <div class="intro-top">
-          <div class="profile">
+      <section class="intro">
+        <div class="intro-top-side">
+          <div class="intro-top-side__profile">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/9/95/Christopher_Nolan_Cannes_2018.jpg"
               alt="C. Nolan"
             />
-            <section class="informations">
+            <section class="intro-top-side__informations">
               <h2 class="fs-md">Christopher Nolan</h2>
               <p class="fs-sm">Oppenheimer is coming...</p>
-              <ul class="info__menu fs-sm">
+              <ul class="informations__menu fs-sm">
                 <li>
                   <a href="#"><i class="fa-solid fa-map-pin"></i> London</a>
                 </li>
@@ -73,7 +81,7 @@
               </ul>
             </section>
           </div>
-          <div class="numbers">
+          <div class="intro-top-side__numbers">
             <ul class="numbers__menu">
               <li>
                 <a href="#"
@@ -108,8 +116,8 @@
             </ul>
           </div>
         </div>
-        <div class="intro-bot">
-          <ul class="intro-bot__menu">
+        <div class="intro-bot-side">
+          <ul class="intro-bot-side__menu">
             <li><a href="#">Profile</a></li>
             <li><a href="#">Activity</a></li>
             <li><a href="#">Films</a></li>
@@ -125,7 +133,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </section>
       <!-- intro | End -->
 
       <!-- main | Start -->
@@ -313,9 +321,11 @@
         </article>
         <!-- comment 3 | End -->
 
-        <div class="go-back">
+        <div class="comments-button-area">
           <a href="index.html"
-            ><button class="button" type="button">Return Homepage</button></a
+            ><button class="comments__button" type="button">
+              Return Homepage
+            </button></a
           >
         </div>
       </section>
@@ -323,8 +333,8 @@
 
       <!-- footer | Start -->
       <footer class="footer">
-        <nav class="footer-nav">
-          <ul class="footer-navbar">
+        <nav class="footer__nav">
+          <ul class="footer__navbar">
             <li><a href="#">About</a></li>
             <li><a href="#">News</a></li>
             <li><a href="#">Pro</a></li>
